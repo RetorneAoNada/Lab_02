@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[10pt, a4paper]{article}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -6,9 +6,13 @@
 \usepackage[T1]{fontenc}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-\usepackage{emptypage}
-
-
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
 \graphicspath{{images/}}
 
 \title{\huge
@@ -41,6 +45,38 @@ Gustavo
 \section*{Introdução}
 \section*{Objetivo}
 \section*{Modelo}
+\qquad Tomando o ponto de centro de massa como referência, 
+podemos escrever uma lei equivalente a segunda lei de Newton, só que para Torques.
+Assim, podemos escrever que:
+\begin{equation}
+    \sum{\tau_i} =  I\cdot \alpha
+\end{equation}
+\qquad De onde, para o nosso sistema, segue que:
+\begin{equation}
+    I \cdot \frac{d^2\theta}{dt ^2} = - mg\cdot sen(\theta)
+\end{equation}
+\qquad Realizando a \textit{suposição} de que a oscilação se dá para pequenos ângulos
+($\theta \leq 10^{o} $), podemos aproximar $sen(\theta)$ para $\theta$ em radianos.
+O que resulta na equação (3):
+\begin{equation}
+    I \cdot \frac{d^2\theta}{dt ^2} = - mgD\cdot \theta
+\end{equation}
+\begin{center}
+    \small{(E.D.O. de 2° ordem, Linear e Homogêna)}
+\end{center}
+\qquad Supondo que a solução é do tipo $\theta = e^{\lambda t}$, desenvolveno
+a equação, encontrando as raizes complexas e terminando as contas. Obtemos que:
+\begin{equation}
+    \theta(t) = \theta_0 \cdot cos(\phi_0 + \omega \cdot t)
+\end{equation}
+\begin{center}
+    \small{(Onde $\omega = \sqrt{\frac{\text{mgD}}{\text{I}}}$ )}
+\end{center}
+\qquad Por fim, como $T = \frac{2\pi}{\omega}$. Obtemos que:
+\begin{equation}
+    T = 2\pi \sqrt{\frac{\text{I}}{\text{mgD}}}
+\end{equation}
+
 \section*{Suposições}
 \section*{Procedimento experimental}
 \section*{Resultado}
