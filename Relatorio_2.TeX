@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[a4paper]{report}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -14,7 +14,8 @@
  top=20mm,
  }
 \graphicspath{{images/}}
-
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\familydefault}{\sfdefault}
 \title{\huge
 {\textbf{Relatório 2}}
  \\
@@ -70,11 +71,9 @@ a equação, encontrando as raizes complexas. Obtemos que:
     \theta(t) = \theta_0 \cdot cos(\phi_0 + \omega \cdot t), \text{ com } \omega = \sqrt{\frac{\text{mgD}}{\text{I}}}
 \end{equation}
 \qquad Por fim, como $T = \frac{2\pi}{\omega}$. Obtemos que:
-\begin{center}
 \begin{equation}
     T = 2\pi \sqrt{\frac{\text{I}}{\text{mgD}}}
 \end{equation}
-\end{center}
 \qquad Note que a equação (5) é uma generalização para qualquer
 tipo de pêndulo, entretanto trabalharemos com duas hipóteses:
 
@@ -87,6 +86,7 @@ tipo de pêndulo, entretanto trabalharemos com duas hipóteses:
 
 
 \section*{Suposições}
+\pagebreak
 \section*{Procedimento experimental}
 \section*{Resultado}
 \section*{Discussão:}
