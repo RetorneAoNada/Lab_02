@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1693538102 "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" "Relatorio_2.pdf" "Relatorio_2" 1693538104 0
+["pdflatex"] 1693961753 "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" "Relatorio_2.pdf" "Relatorio_2" 1693961755 0
   "C:/Users/Lidiane/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693533632 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Lidiane/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1692741711 24119856 4b6a2081e0bce4a3198ca95604385a98 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -48,10 +48,12 @@
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1256929440 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256929440 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1256929440 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
+  "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb" 1256929440 31443 ba2241b179aa231f73e052863720cb42 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb" 1256929440 30789 39c6b966e509dbc60e7a1aaaf85d08a0 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb" 1256929440 30698 e53a423459271d6c5cdd91f7559396af ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256929440 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256929440 113634 9384aebdf26f9881e046a4b5574566db ""
+  "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb" 1256929440 120387 4904c2679a7b90fe9e17171d6c7c9dd0 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb" 1256929440 123394 992f5e87d698d9e94717394c62580ea6 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb" 1256929440 121145 00b210fbe9efd7ce850c04e64670de9a ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb" 1256929440 121065 ba8daf2228d9e511988917831f1e22e9 ""
@@ -94,9 +96,9 @@
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/lm/ot1lmr.fd" 1430474546 1882 28c08db1407ebff35a658fd141753d16 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd" 1430474546 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/lm/ts1lmr.fd" 1430474546 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
-  "Relatorio_2.aux" 1693538104 120 68b7c6fc2e4dba34f9531cea15a7341c "pdflatex"
-  "Relatorio_2.tex" 1693538101 2458 4cec4af08a75bc796eada24db09725ac ""
-  "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" 1693538101 2458 4cec4af08a75bc796eada24db09725ac ""
+  "Relatorio_2.aux" 1693961755 120 68b7c6fc2e4dba34f9531cea15a7341c "pdflatex"
+  "Relatorio_2.tex" 1693961749 2872 9c1a95c28b477f8a60467b3c055d702b ""
+  "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" 1693961749 2872 9c1a95c28b477f8a60467b3c055d702b ""
   (generated)
   "Relatorio_2.aux"
   "Relatorio_2.log"

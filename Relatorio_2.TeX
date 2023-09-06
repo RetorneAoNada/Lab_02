@@ -26,7 +26,7 @@ Arthur Augusto Cândido Luércio (251818) \\
 Marcos Ferreira Semolini (204339) \\
 Pedro Henrique Segnini Ortolan (258610) \\
 Renato Moraes Ferreira Sene (238248) \\
-Gustavo
+Gustavo Guimarães de Carvalho (258492)
 }
 \date{Setembro, 2023}
 
@@ -64,8 +64,8 @@ O que resulta na equação (3):
 \begin{center}
     \small{(E.D.O. de 2° ordem, Linear e Homogêna)}
 \end{center}
-\qquad Supondo que a solução é do tipo $\theta = e^{\lambda t}$, desenvolveno
-a equação, encontrando as raizes complexas e terminando as contas. Obtemos que:
+\qquad Supondo que a solução é do tipo $\theta = e^{\lambda t}$, desenvolvendo
+a equação, encontrando as raizes complexas. Obtemos que:
 \begin{equation}
     \theta(t) = \theta_0 \cdot cos(\phi_0 + \omega \cdot t)
 \end{equation}
@@ -73,9 +73,21 @@ a equação, encontrando as raizes complexas e terminando as contas. Obtemos que
     \small{(Onde $\omega = \sqrt{\frac{\text{mgD}}{\text{I}}}$ )}
 \end{center}
 \qquad Por fim, como $T = \frac{2\pi}{\omega}$. Obtemos que:
+\begin{center}
 \begin{equation}
     T = 2\pi \sqrt{\frac{\text{I}}{\text{mgD}}}
 \end{equation}
+\end{center}
+\qquad Note que a equação (5) é uma generalização para qualquer
+tipo de pêndulo, entretanto trabalharemos com duas hipóteses:
+$$
+T =
+\begin{cases}
+    2\pi \sqrt{\frac{\text{D} + \frac{\text{$K^2$}}{\text{D}}}{\text{g}}}, \ \ \text{Pêndulo Físico } (6)\\
+    \ \\
+    2\pi \sqrt{\frac{\text{D}}{\text{g}}}, \ \ \text{Pêndulo Simples } (7)
+\end{cases}
+$$
 
 \section*{Suposições}
 \section*{Procedimento experimental}
