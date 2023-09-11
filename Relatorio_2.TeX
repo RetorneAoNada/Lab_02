@@ -163,10 +163,33 @@ tipo de pêndulo, entretanto trabalharemos com duas hipóteses:
     \end{subfigure}
  \end{figure}
 
+
 \qquad Montamos o pêndulo atravessando os furos com um arame e realizamos o experimento. Nosso objetivo é determinar o período do pêndulo através da filmagem de seu movimento. Filmamos cada par de furos três vezes, resultando em um total de 21 vídeos. Esses vídeos serão posteriormente analisados utilizando o software Tracker. É importante observar que, devido às suposições dos modelos, soltamos o tubo de ângulos pequenos (< 10°) para permitir a análise posterior.
 
+\qquad Utilizando do software Tracker, fomos capaz de construir um gráfico do angulo com a vertical ($\theta$) em função do tempo t. 
+Ainda no mesmo programa, fomos capazes de selecionar o conjunto de pontos iniciais e ajustar uma curva do tipo $\theta (t) = Asen (Bt + C)$, onde A é a fase inicial do movimento, B a velocidade angular
+e C a diferença de fase incial. Apartir dessa regressão, obter os valores de $\omega$ 
+para os vídeos gravados. Com esses valores em mãos, calculamos o periodo e construimos a regressão linear
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\linewidth]{grafico3.png}
+    \caption{\small{Exemplo de dados da posição ($\theta$ em Rad) por tempo (t em segundos). Por cima, em vermelho, está a regressão senoidal.}}
+    \label{fig:1.4}
+\end{figure}
+
 \section*{Resultado}
-\qquad teste 002
+\qquad Para cada vídeo gravado extraímos um valor de periodo, estimado 
+através da regressão senoidal. Após isso, ajeitamos os valores das grandezas para realizar 
+a nossa regressão linear e assim construimos o gráfico ($T^2D \times D^2$), respeitando a 
+equação: $D^2 = \frac{g}{4\pi^2}T^2D - k^2 \ (8) $ ,que é um tratamento matemático que possibilida linerarizar a equação (6), conforme mostra a Figura 4.
+ A partir do coeficiente angular, estimado pelo ajuste feito no ScyDavis, encontramos o valor de $\boxed{g = 9,91 \pm 0,04 \ \ m/s^2}$. Já apartir do coeficiente linear encontramos o valo de $\boxed{k^2 = }$
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{grafico4.png}
+    \caption{\small{Relação entre os dados linearizados, de acordo com a equação (8) proposta no texto. Em vermelho encontra-se o Ajuste linear, cujo os coeficiente se encontram na Tabela 1
+    }}
+    \label{fig:1.4}
+\end{figure}
 \section*{Discussão:}
 
 \section*{Conclusão:}

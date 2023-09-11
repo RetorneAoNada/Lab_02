@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694392907 "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" "Relatorio_2.pdf" "Relatorio_2" 1694392910 0
+["pdflatex"] 1694396270 "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" "Relatorio_2.pdf" "Relatorio_2" 1694396279 0
   "C:/Users/Lidiane/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694390585 82666 6ae954049cbd801ff08c004e318ae5a8 ""
   "C:/Users/Lidiane/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1692741711 24119856 4b6a2081e0bce4a3198ca95604385a98 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -42,6 +42,7 @@
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr7.tfm" 1256933040 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr8.tfm" 1256933040 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256933040 23055 2e5b42921de910eaa97b85df04ca4891 ""
+  "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1256933040 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb" 1256933040 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb" 1256933040 30635 833ec815d446ec453a4913fc26d24cbc ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256933040 113634 9384aebdf26f9881e046a4b5574566db ""
@@ -238,12 +239,14 @@
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1650051284 2245 c8a4088d07cffc2e5207730c738edd76 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1650051284 20785 71a3d72ab517959a6979c27e6176bec1 ""
-  "Relatorio_2.aux" 1694392910 1672 ede74182039eae15edd663bc40b68b02 "pdflatex"
-  "Relatorio_2.out" 1694392909 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Relatorio_2.tex" 1694392902 8737 3d8404937fc3230fe11a234127d3e720 ""
-  "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" 1694392902 8737 3d8404937fc3230fe11a234127d3e720 ""
+  "Relatorio_2.aux" 1694396277 2650 7c67b12df2bbc332a9d8ed619348cb39 "pdflatex"
+  "Relatorio_2.out" 1694396276 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Relatorio_2.tex" 1694396266 10506 95a428b88699e45dea315a3d83359a1b ""
+  "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" 1694396266 10506 95a428b88699e45dea315a3d83359a1b ""
   "images/grafico1.png" 1694392902 120107 bd737daccdf66e1850c0965c5c7986f0 ""
   "images/grafico2.png" 1694392902 148787 56e7638519aedbf7d48ddca32ee73516 ""
+  "images/grafico3.png" 1694394438 56584 752cb6e5fd4f4e976d8b9b82cf007bd0 ""
+  "images/grafico4.png" 1694394457 35464 1bb279675241204b3c61891e3c99ce4c ""
   "images/pendulo caseiro.png" 1694392902 52601 8a47718de65f9ccb566ce25aa70f1aa5 ""
   (generated)
   "Relatorio_2.aux"

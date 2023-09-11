@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.22)  10 SEP 2023 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.22)  10 SEP 2023 22:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -829,7 +829,11 @@ Package geometry Warning: Over-specification in `v'-direction.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 66.
 (C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-) (Relatorio_2.aux)
+) (Relatorio_2.aux
+
+LaTeX Warning: Label `fig:1.4' multiply defined.
+
+)
 \openout1 = `Relatorio_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -986,8 +990,31 @@ File: images/grafico2.png Graphic file (type png)
 <use images/grafico2.png>
 Package pdftex.def Info: images/grafico2.png  used on input line 160.
 (pdftex.def)             Requested size: 204.85846pt x 86.9298pt.
+<images/grafico3.png, id=52, 539.01375pt x 348.30125pt>
+File: images/grafico3.png Graphic file (type png)
+<use images/grafico3.png>
+Package pdftex.def Info: images/grafico3.png  used on input line 175.
+(pdftex.def)             Requested size: 318.66948pt x 205.92113pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 176.
 
-Overfull \hbox (20.4772pt too wide) in paragraph at lines 176--177
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/grafico4.png, id=53, 1284.8pt x 549.05125pt>
+File: images/grafico4.png Graphic file (type png)
+<use images/grafico4.png>
+Package pdftex.def Info: images/grafico4.png  used on input line 188.
+(pdftex.def)             Requested size: 455.24411pt x 194.54173pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./images/grafico1.png> <./images/grafico2.png>]
+Overfull \hbox (20.4772pt too wide) in paragraph at lines 199--200
 []\T1/phv/m/n/12 Momento de inér-cia do ci-lin-dro: https://amesweb.info/inertia/hollow-cylinder-moment-
  []
 
@@ -998,7 +1025,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4 <./images/grafico1.png> <./images/grafico2.png>]
+[5 <./images/grafico3.png> <./images/grafico4.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1006,28 +1033,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] 
+[6] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (Relatorio_2.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Relatorio_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30153 strings out of 475550
- 566784 string characters out of 5761589
- 1930238 words of memory out of 5000000
- 50772 multiletter control sequences out of 15000+600000
- 622510 words of font info for 98 fonts, out of 8000000 for 9000
+ 30181 strings out of 475550
+ 567368 string characters out of 5761589
+ 1931238 words of memory out of 5000000
+ 50797 multiletter control sequences out of 15000+600000
+ 626523 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,103p,788b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Relatorio_2.pdf (5 pages, 461120 bytes).
+ 99i,16n,103p,788b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Relatorio_2.pdf (6 pages, 563894 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
