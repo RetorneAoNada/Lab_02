@@ -1,7 +1,36 @@
-\documentclass[a4paper]{report}
-\usepackage{amssymb}
-\usepackage{amsmath}
+%Especificação do documento:
+\documentclass[hidelinks,a4paper,12pt]{article}
+%pacotes de formatação:
+\usepackage[portuguese,brazilian]{babel}
+\usepackage[lmargin=3cm,tmargin=2.5cm,rmargin=3cm,bmargin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,dsfont,mathtools,blindtext}
+\usepackage{blindtext}
+\usepackage{comment}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{indentfirst}
 \usepackage{graphicx}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epstopdf}  
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage{color}
+\usepackage{url}
+\usepackage[shortlabels]{enumitem}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{animate}
+\usepackage{lscape}
+\setlength{\parskip}{0.75em}
+\usepackage[version=3]{mhchem}
+\usepackage{chemfig}
+\usepackage{subcaption}
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage{fancyhdr}
@@ -16,6 +45,7 @@
 \graphicspath{{images/}}
 \renewcommand{\sfdefault}{phv}
 \renewcommand{\familydefault}{\sfdefault}
+%----------------------------------------------------------%
 \title{\huge
 {\textbf{Relatório 2}}
  \\
@@ -42,11 +72,25 @@ Gustavo Guimarães de Carvalho (258492)
 \pagebreak
 \fancyhead[C]{Relatório 2 - F 229 2s2023}
 \fancyfoot[R]{\thepage}
+%---------------------------------------------------------------%
 \section*{Resumo}
+
 \section*{Introdução}
-\qquad Em um pêndulo simples como o da Figura 1, temos uma massa oscilando em torno de um ponto fixo ligado por um fio inextensível de massa desprezível e comprimento L (do centro de massa ao ponto fixo). Em nosso pêndulo caseiro, mostrado na figura 2, temos apenas nossa massa, no caso um tubo de papelão, ligada ao nosso eixo de rotação, no caso um arame, que atravessa o tubo em furos paralelos de diferentes distâncias ao centro de massa. O tubo é afastado do ponto de equilíbrio e então solto do repouso e começa a oscilar com cada ciclo da oscilação tendo um período com amplitude que gradativamente diminui até parar. 
+
+    \qquad Em nosso experimento, construiremos um pêndulo caseiro para analisar e comparar dois modelos de sistemas: o pêndulo físico e o pêndulo simples.
+    No nosso pêndulo caseiro, representado na Figura \ref{fig:1.1}, temos uma massa, um tubo de papelão, conectada a um eixo de rotação, um arame, que atravessa o tubo em furos paralelos a diferentes distâncias do centro de massa. O tubo é deslocado do ponto de equilíbrio e, quando liberado do repouso, inicia oscilações. A cada ciclo de oscilação, o período diminui gradualmente até a parada.
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.4\linewidth]{pendulo caseiro.png}
+        \caption{\small{Foto da construção do pêndulo caseiro.}}
+        \label{fig:1.1}
+    \end{figure}
+
 \section*{Objetivo}
-\qquad No presente experimento procuramos, através da analise de um pêndulo caseiro, estudar as diferenças de resultados entre análises quando estas são feitas levando em consideração modelos diferentes que descrevem um comportamento do pêndulo: primeiro, um modelo mais simples e então de um modelo mais complexo, que diferem em questão das suas suposições e simplificações. Durante o experimento são encontrados os valores da aceleração da gravidade (g) e do raio de giração do pêndulo (k). Além disso, devem ser identificados possíveis erros sistemáticos presentes no experimento e, através da análise dos resultados, devem ser identificados as diferenças dos modelos sendo usados e da realidade.
+
+    \qquad Os objetivos deste experimento incluem a obtenção dos valores da gravidade local (g) e do raio de giração do pêndulo (k) por meio da análise dos dados experimentais. Com base nos resultados, determinaremos qual modelo, o pêndulo simples ou o pêndulo físico, descreve melhor nosso experimento. Além disso, buscaremos identificar possíveis erros sistemáticos no experimento.
+    
 \section*{Modelo}
 \qquad Tomando o ponto de centro de massa como referência, 
 podemos escrever uma lei equivalente a segunda lei de Newton, só que para Torques.
@@ -85,30 +129,53 @@ tipo de pêndulo, entretanto trabalharemos com duas hipóteses:
         T &= 2\pi \sqrt{\frac{\text{D}}{\text{g}}},\quad \qquad \text{Pêndulo Simples }
 \end{align}
 
-
-
 \section*{Suposições}
 \begin{itemize}
-    \item O tubo de papel é homogêneo e, portanto, seu centro de massa se localiza exatamente em sua metade;
-    \item No modelo do pêndulo simples, consideramos que o ângulo é pequeno o bastante para considerar a aproximação: \(sen(x) = x\);
+    \item No modelo, consideramos que o ângulo é pequeno o bastante para considerar a aproximação: \(sen(x) = x\);
     \item O movimento está contido em um único plano;
-    \item As existem forças dissipativas, que atuam no sistema, são desprezíveis;
+    \item As forças dissipativas, que atuam no sistema, dentro de um curto espaço de tempo, são desprezíveis;
 \end{itemize}
 
 \section*{Procedimento experimental}
 
 \qquad Para a realização do experimento devemos sempre considerar os possíveis erros sistemáticos que surgem devido a montagem do experimento. Neste caso, os erros principais surgem do desalinhamento do eixo de rotação e da precisão do local considerado como o centro de massa.
 
-\qquad Em relação ao erro do desalinhamento, devemos furar o tubo de papel levando em consideração que o os furos devem estar o mais paralelos possível para minimizar potenciais erros sistemáticos. Para isso usamos a seguinte estratégia: Primeiro, enrolamos o tubo em uma folha de papel sulfite, deixando-a o mais justa possível no tubo. Então, retiramos a folha - que agora está no formato cilíndrico e nas dimensões do tubo - e a dobramos nela mesma. Com a folha dobrada podemos marcar com o auxílio de uma régua os locais para os furos de forma com que fiquem quase perfeitamente paralelos. Enrolamos novamente o papel no tubo e furamos nos locais marcados.\textbf{ Realizamos 4 pares de furos paralelos.}
+\qquad Em relação ao erro do desalinhamento, devemos furar o tubo de papel levando em consideração que o os furos devem estar o mais paralelos possível para minimizar potenciais erros sistemáticos. Para isso usamos a seguinte estratégia: Primeiro, enrolamos o tubo em uma folha de papel sulfite, deixando-a o mais justa possível no tubo. Então, retiramos a folha - que agora está no formato cilíndrico e nas dimensões do tubo - e a dobramos nela mesma. Com a folha dobrada podemos marcar com o auxílio de uma régua os locais para os furos de forma com que fiquem quase perfeitamente paralelos. Enrolamos novamente o papel no tubo e furamos nos locais marcados. Realizaremos 7 pares de furos paralelos.
 
-\qquad Agora, em relação ao erro do centro de massa, podemos usar um método simples para determinar com precisão suficiente o centro de massa do tubo. Para isso, equilibramos a lateral do tubo em qualquer pequena superfície plana e observa-mos em que ponto o tubo se mantém equilibrado. Considerando que nosso tubo é homogêneo, sabemos que o ponto de equilíbrio do tubo é também o ponto de seu centro de massa. A incerteza desse método pode ser considerada como mais ou menos metade da espessura do cano (análise triangular) e da incerteza da paralaxe.
+\quad Agora, em relação ao erro do centro de massa, podemos usar um método simples para determinar com precisão suficiente o centro de massa do tubo. Para isso, equilibramos a lateral do tubo em qualquer pequena superfície plana e observa-mos em que ponto o tubo se mantém equilibrado.
 
-\qquad Com os pontos e centro de massa definidos, simplesmente medimos a distância dos pontos ao centro de massa com um régua, sempre considerando respectivas incertezas. Em seguida, montamos o pêndulo atravessando os furos com um arame e então realizamos o experimento em si. O objetivo é definir o período do pêndulo ao fazer o pêndulo balançar e filmar esse balanço.\textbf{ E para isso cada par de furos será filmado 2 vezes para um total de 8 vídeos que serão analisados utilizando o software Tracker.} Note que considerando as suposições dos modelos, devemos soltar o tubo de ângulo pequenos, para que assim seja possível realizar a análise posterior.
+\quad Para determinar as distâncias onde faremos os furos, primeiro calculamos a inércia teórica do nosso pêndulo usando o site de referência (1). Para isso, medimos a massa do tubo de papel com uma balança digital obtendo o valor de 21.3±0.1 g. Inserindo os dados no site obtemos um resultado de $I_{CM} = 2,45 * 10^{-4} kg*m^2$. A partir desse valor, calculamos o raio de rotação teórico usando a fórmula $I_{CM} = m * k^2$, o que nos dá um valor de $k = 10,7 cm$.   
+
+\quad Com isso, plotamos o gráfico de T em função de D, conforme mostrado na Figura \ref{fig:1.2}, utilizando a equação (6) com g = 9,81 m/s² e k = 10,7 cm. Identificamos que o ponto de mínimo coincidia com o valor de k. Em seguida, selecionamos 7 pontos de interesse que abrangeriam nosso experimento, (4.7), (6.2), (7.7), (9.2), (10.7), (12.2) e (13.7), como ilustrado na Figura \ref{fig: 1.3}.
+
+\begin{figure}[H]
+    \begin{subfigure}{0.5\textwidth }
+        \centering
+        \includegraphics[width=0.9\linewidth]{grafico1.png}
+        \caption{Gráfico de T em função de D.}
+        \label{fig:1.2}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth }
+        \centering
+        \includegraphics[width=0.9\linewidth]{grafico2.png}
+        \caption{Escolha do intervalo de pontos.}
+        \label{fig: 1.3}
+    \end{subfigure}
+ \end{figure}
+
+\qquad Montamos o pêndulo atravessando os furos com um arame e realizamos o experimento. Nosso objetivo é determinar o período do pêndulo através da filmagem de seu movimento. Filmamos cada par de furos três vezes, resultando em um total de 21 vídeos. Esses vídeos serão posteriormente analisados utilizando o software Tracker. É importante observar que, devido às suposições dos modelos, soltamos o tubo de ângulos pequenos (< 10°) para permitir a análise posterior.
+
 \section*{Resultado}
-\qquad teste 001
+
 \section*{Discussão:}
+
 \section*{Conclusão:}
+
 \section*{Referências:}
+\begin{enumerate}
+    \item Momento de inércia do cilindro: https://amesweb.info/inertia/hollow-cylinder-moment-of-inertia.aspx
+\end{enumerate}
+
 \section*{Apêndice A: Dados experimentais e incertezas}
 
 \end{document}
