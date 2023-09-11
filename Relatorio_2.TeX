@@ -1,5 +1,5 @@
 %Especificação do documento:
-\documentclass[hidelinks,a4paper,12pt]{article}
+\documentclass[hidelinks,a4paper,10pt]{article}
 %pacotes de formatação:
 \usepackage[portuguese,brazilian]{babel}
 \usepackage[lmargin=3cm,tmargin=2.5cm,rmargin=3cm,bmargin=2.5cm]{geometry}
@@ -68,7 +68,7 @@ Gustavo Guimarães de Carvalho (258492)
 \pagestyle{fancy}
 \fancyfoot{}\fancyhead{}
 \pagenumbering{arabic}
-\maketitle{}
+\maketitle
 \pagebreak
 \fancyhead[C]{Relatório 2 - F 229 2s2023}
 \fancyfoot[R]{\thepage}
@@ -149,7 +149,7 @@ tipo de pêndulo, entretanto trabalharemos com duas hipóteses:
 \quad Com isso, plotamos o gráfico de T em função de D, conforme mostrado na Figura \ref{fig:1.2}, utilizando a equação (6) com g = 9,81 m/s² e k = 10,7 cm. Identificamos que o ponto de mínimo coincidia com o valor de k. Em seguida, selecionamos 7 pontos de interesse que abrangeriam nosso experimento, (4.7), (6.2), (7.7), (9.2), (10.7), (12.2) e (13.7), como ilustrado na Figura \ref{fig: 1.3}.
 
 \begin{figure}[H]
-    \begin{subfigure}{0.5\textwidth }
+    \begin{subfigure}{0.4\textwidth }
         \centering
         \includegraphics[width=0.9\linewidth]{grafico1.png}
         \caption{Gráfico de T em função de D.}
@@ -172,24 +172,58 @@ e C a diferença de fase incial. Apartir dessa regressão, obter os valores de $
 para os vídeos gravados. Com esses valores em mãos, calculamos o periodo e construimos a regressão linear
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\linewidth]{grafico3.png}
+    \includegraphics[width=0.5\linewidth]{grafico3.png}
     \caption{\small{Exemplo de dados da posição ($\theta$ em Rad) por tempo (t em segundos). Por cima, em vermelho, está a regressão senoidal.}}
     \label{fig:1.4}
 \end{figure}
 
 \section*{Resultado}
-\qquad Para cada vídeo gravado extraímos um valor de periodo, estimado 
-através da regressão senoidal. Após isso, ajeitamos os valores das grandezas para realizar 
+\qquad Para cada vídeo gravado extraímos um valor de periodo, estimado
+através da regressão senoidal. Então, ainda com os dados brtuos e suas incertezas, construimos um gráfico de Periodo (T em segundos) por Comprimento (D em metros). 
+Nele, também, encontram-se duas funções, refrentes às equações (6) e (7), substituindo a gravidade local, obtida através de um estudo que correlaciona latitude, altura e a gravidade local [2], além 
+do valor de k previamente calculado em nossas estimativas. O gráfico comparativo é representado pela figura 4.
+
+\qquad Após isso, ajeitamos os valores das grandezas para realizar 
 a nossa regressão linear e assim construimos o gráfico ($T^2D \times D^2$), respeitando a 
-equação: $D^2 = \frac{g}{4\pi^2}T^2D - k^2 \ (8) $ ,que é um tratamento matemático que possibilida linerarizar a equação (6), conforme mostra a Figura 4.
- A partir do coeficiente angular, estimado pelo ajuste feito no ScyDavis, encontramos o valor de $\boxed{g = 9,91 \pm 0,04 \ \ m/s^2}$. Já apartir do coeficiente linear encontramos o valo de $\boxed{k = 9,322 \pm 0,005 \ \ m }$
+equação: $D^2 = \frac{g}{4\pi^2}T^2D - k^2 \ (8) $ ,que é um tratamento matemático que possibilida linerarizar a equação (6), conforme mostra a Figura 5.
+ A partir do coeficiente angular, estimado pelo ajuste feito no ScyDavis, encontramos o valor de $\boxed{g = 9,91 \pm 0,04 \ \ m/s^2}$. Já apartir do coeficiente linear encontramos o valor de $\boxed{k = 0,093 \pm 0,002 \ \ m }$ 
+\pagebreak
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{grafico4.png}
+    \includegraphics[width=0.7\linewidth]{grafico5.png}
+    \caption{\small{Gráfico de $T \times D $ onde é possível ver os pontos coletados em preto, e as equações modelo (6) em azul a cima da equação (7) em vermelho. 
+    Note que os pontos são melhor representados pela equação do pêndulo físico, como já previamos em nossas hipóteses. }}
+    \label{fig:1.4}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\linewidth]{grafico4.png}
     \caption{\small{Relação entre os dados linearizados, de acordo com a equação (8) proposta no texto. Em vermelho encontra-se o Ajuste linear, cujo os coeficiente se encontram na Tabela 1
     }}
     \label{fig:1.4}
 \end{figure}
+\begin{center}
+    Tabela 1:\\
+    \ \\
+\begin{tabular} {| c | c |}
+    \hline
+        \textbf{Linearização: }$Y = \alpha x + \beta $ & $D^2 = \frac{g}{4\pi^2}T^2D - k^2$ \\
+        \ & \ \\
+    \hline
+        \textbf{Coeficiente angular: $\alpha$ } & $(2,51 \pm 0,01) 10^{-1} \ m/s^2$ \\
+        \ & \ \\
+    \hline
+        \textbf{Coeficiente angular: $\beta$ } & $(8,69 \pm 0,08) 10^{-3} \ m^2$ \\
+        \ & \ \\
+    \hline
+    \textbf{Aceleração da gravidade} & $(9,91 \pm 0,04) \ m/s^2$ \\
+    \textbf{Experimental} & \ \\
+    \hline
+        \textbf{Raio de giração } & $(9,3 \pm 0,2)  \ cm$ \\
+        \ & \ \\
+    \hline        
+\end{tabular}
+\end{center}
 \section*{Discussão:}
 
 \section*{Conclusão:}
