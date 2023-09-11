@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.22)  11 SEP 2023 00:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.22)  11 SEP 2023 16:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -836,6 +836,9 @@ LaTeX Warning: Label `fig:1.4' multiply defined.
 
 LaTeX Warning: Label `fig:1.4' multiply defined.
 
+
+LaTeX Warning: Label `fig:1.4' multiply defined.
+
 )
 \openout1 = `Relatorio_2.aux'.
 
@@ -994,12 +997,13 @@ File: images/grafico4.png Graphic file (type png)
 <use images/grafico4.png>
 Package pdftex.def Info: images/grafico4.png  used on input line 200.
 (pdftex.def)             Requested size: 318.66948pt x 136.18173pt.
- [4 <./images/grafico1.png> <./images/grafico2.png> <./images/grafico3.png>]
-Overfull \hbox (4.91045pt too wide) in paragraph at lines 233--234
-[]\T1/phv/m/n/10 Momento de inér-cia do ci-lin-dro: https://amesweb.info/inertia/hollow-cylinder-moment-of-inertia.aspx 
- []
-
-[5 <./images/grafico5.png> <./images/grafico4.png>] 
+ [4 <./images/grafico1.png> <./images/grafico2.png> <./images/grafico3.png>] [5 <./images/grafico5.png> <./images/grafico4.png>]
+<images/grafico6.png, id=74, 963.6pt x 484.81125pt>
+File: images/grafico6.png Graphic file (type png)
+<use images/grafico6.png>
+Package pdftex.def Info: images/grafico6.png  used on input line 262.
+(pdftex.def)             Requested size: 182.09486pt x 91.61205pt.
+ [6 <./images/grafico6.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (Relatorio_2.aux)
  ***********
@@ -1014,17 +1018,17 @@ Package rerunfilecheck Info: File `Relatorio_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30188 strings out of 475550
- 567487 string characters out of 5761589
+ 30200 strings out of 475550
+ 567783 string characters out of 5761589
  1931238 words of memory out of 5000000
- 50801 multiletter control sequences out of 15000+600000
+ 50812 multiletter control sequences out of 15000+600000
  624929 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,788b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Relatorio_2.pdf (5 pages, 622293 bytes).
+<C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Relatorio_2.pdf (6 pages, 1027752 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

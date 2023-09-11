@@ -224,13 +224,60 @@ equação: $D^2 = \frac{g}{4\pi^2}T^2D - k^2 \ (8) $ ,que é um tratamento matem
     \hline        
 \end{tabular}
 \end{center}
+\qquad As principais incertezas consideradas foram, a de medição da régua, da incerteza do centro de massa, 
+as incertezas de $\omega$, informadas pelo Tracker, e as incertezas nos coeficientes, fornecidads pelo SciDavis. 
+Quando houve necessidade, todas as propagações de incerteza foram feitas apropriadamente. Todos os dados, relativos as incertezas 
+encontram-se na Tabela A4, no apêndice A.
 \section*{Discussão:}
+\qquad Podemos ver, através da figura 4 que os pontos parecem ser 
+melhor descritos pelo Pêndulo físico, do que pelo Pêndulo simples. Além disso, 
+como se vê na figura 5, os pontos possuem uma boa correlação linear, com nenhum ponto a mais de um desvio 
+padrão da reta, além de $R^2 = 0,999$. O que são bons indicativos de que o 
+modelo do Pêndulo Físico, descreve bem o sistema estudado.
+\pagebreak
+
+
+\qquad Como Forma de avaliar os resultados, pegamos um estudo realizado pela Instituto de física 
+na Universidade de Guarulhos, onde é proposta a busca de uma equação capaz de relacionar Latitude e Altitude, 
+com o valor da gravidade local. Através dela, conseguimos $g = 9,783 \pm 0,001$ para a cidade de Campinas, o que comparado com os nossos resultados tem
+um erro de apenas 1,3 \% com o nosso valor de $g = 9,91 \pm 0,04$, que, apesar de bastante preciso, não é exato, visto que não contém a gravidade esperada no intervalo de incertezas.
+
+
+\qquad [Marcos Descreve o Raio de giração]
+
+
+\qquad Por fim, conseguimos perceber uma falha importante no modêlo, 
+essa é a desconsideração de amortecimento no sistema (forças dissipativas). 
+Isso porque, elas de fato atuam no sistema e, quando consideramos um periodo de tempo 
+grande o suficiente, esses efeitos visíveis e a nosso modelo de MHS proposto teria que 
+ser alterado por um MHS \textit{Amortecido}:
+\begin{equation*}
+    \theta (t) = A e^{-\frac{\gamma t}{2}}cos(\omega t + \phi_0)
+\end{equation*}
+\qquad A fuga do comportamento ideal do MHS é observada na figura 6, 
+onde é tomado todo o intervalo de tempo, em relação a apenas um pequeno recorte 
+onde foi feita a regressão senoidal.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\linewidth]{grafico6.png}
+    \caption{\small{Exemplo de gráfico da fuga da idealidade. Em vermelho está a regressão senoidal, considerando o começo da curva. 
+    Em preto, estão representados os pontos obtidos pelo Tracker para o movimento. Perceba como, 
+    no começo, os gráficos se encontram, mas a medida que o tempo passa efeitos dissipativos se destacam e o modelo deixa de ser válido.
+    }}
+    \label{fig:1.4}
+\end{figure}
+
+
 
 \section*{Conclusão:}
 
 \section*{Referências:}
 \begin{enumerate}
-    \item Momento de inércia do cilindro: https://amesweb.info/inertia/hollow-cylinder-moment-of-inertia.aspx
+    \small
+    {
+    \item[1] Momento de inércia do cilindro: https://amesweb.info/inertia/hollow-cylinder-moment-of-inertia.aspx
+    \item[2] Gravidade local: https://periodicos.ufsc.br/index.php/fisica/article/view/2175-7941.2008v25n3p561/8450
+    }
 \end{enumerate}
 
 \section*{Apêndice A: Dados experimentais e incertezas}

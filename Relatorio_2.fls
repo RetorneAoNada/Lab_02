@@ -490,6 +490,12 @@ INPUT .\images\grafico4.png
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT .\images\grafico6.png
+INPUT .\images\grafico6.png
+INPUT .\images\grafico6.png
+INPUT .\images\grafico6.png
+INPUT .\images\grafico6.png
+INPUT .\images\grafico6.png
 INPUT Relatorio_2.aux
 INPUT .\Relatorio_2.out
 INPUT .\Relatorio_2.out
@@ -497,6 +503,8 @@ INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex1
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi5.pfb
+INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi5.pfb
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi7.pfb
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi7.pfb
 INPUT C:\Users\Lidiane\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi9.pfb
