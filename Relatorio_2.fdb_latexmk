@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694391103 "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" "Relatorio_2.pdf" "Relatorio_2" 1694391106 0
+["pdflatex"] 1694392155 "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" "Relatorio_2.pdf" "Relatorio_2" 1694392158 0
   "C:/Users/Lidiane/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1694390585 82666 6ae954049cbd801ff08c004e318ae5a8 ""
   "C:/Users/Lidiane/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1692741711 24119856 4b6a2081e0bce4a3198ca95604385a98 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -238,13 +238,13 @@
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1650051284 2245 c8a4088d07cffc2e5207730c738edd76 ""
   "C:/Users/Lidiane/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1650051284 20785 71a3d72ab517959a6979c27e6176bec1 ""
-  "Relatorio_2.aux" 1694391105 1672 ede74182039eae15edd663bc40b68b02 "pdflatex"
-  "Relatorio_2.out" 1694391105 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Relatorio_2.tex" 1694391091 8721 0970ee83241fab2388c4ab03b6cf18a7 ""
-  "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" 1694391091 8721 0970ee83241fab2388c4ab03b6cf18a7 ""
-  "images/grafico1.png" 1694390604 120107 bd737daccdf66e1850c0965c5c7986f0 ""
-  "images/grafico2.png" 1694390614 148787 56e7638519aedbf7d48ddca32ee73516 ""
-  "images/pendulo caseiro.png" 1694390559 52601 8a47718de65f9ccb566ce25aa70f1aa5 ""
+  "Relatorio_2.aux" 1694392158 1672 ede74182039eae15edd663bc40b68b02 "pdflatex"
+  "Relatorio_2.out" 1694392158 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Relatorio_2.tex" 1694392150 8739 c48ff63ee16b34b8f54f6f224ccbee39 ""
+  "c:/Users/Lidiane/Desktop/F229/Lab02/Relatorio_2.tex" 1694392150 8739 c48ff63ee16b34b8f54f6f224ccbee39 ""
+  "images/grafico1.png" 1694391815 120107 bd737daccdf66e1850c0965c5c7986f0 ""
+  "images/grafico2.png" 1694391815 148787 56e7638519aedbf7d48ddca32ee73516 ""
+  "images/pendulo caseiro.png" 1694391815 52601 8a47718de65f9ccb566ce25aa70f1aa5 ""
   (generated)
   "Relatorio_2.aux"
   "Relatorio_2.log"
